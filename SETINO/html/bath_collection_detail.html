@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/collection_detail.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+<body>
+    <div id="wrap">
+        <div class="big_box">
+            <header>
+                <div class="logo_box">
+                    <a href="mainpage.html"><img src="../img/color_black.png" alt="로고" class="logo"></a>
+                </div>
+                <div class="nav">
+                    <ul class="big_ul">
+                        <li class="nav_li">
+                            <a href="brand.html">BRAND</a>
+                            <div class="li_bottom_line back_black_notrans"></div>
+                        </li>
+                        <li class="nav_li">COLLECTION
+                            <div class="li_bottom_line back_black_notrans"></div>
+                            <div class="nav_menu">
+                                <ul class="small_ul">
+                                    <li class="small_li"><a href="collection_new.html">NEW</a></li>
+                                    <li class="small_li"><a href="collection_best.html">BEST</a></li>
+                                    <li class="small_li"><a href="collection_scent.html">SCENT</a></li>
+                                    <li class="small_li"><a href="collection_bath&body.html">BATH&BODY</a></li>
+                                    <li class="small_li"><a href="collection_home_fragrance.html">HOME_FRAGRANCE</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav_li">
+                            <a href="contact.html">CONTACT</a>
+                            <div class="li_bottom_line back_black_notrans"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu_btn">MENU
+                    <div class="ham_btn">
+                        <div class="ham_line ham_top_line"></div>
+                        <div class="ham_line ham_bottom_line"></div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="colletion_item_img">
+                </div>
+                <div class="collection_item_info">
+                    <div class="collection_item_title"></div>
+                    <!-- <div class="collection_title_line"></div> -->
+                    <div class="collection_item_price"></div>
+                    <div class="collection_ae"> 구매 수량 : 
+                        <input type="button" value="-" class="minus_btn">
+                        <input type="text" name="ae" id="ae" value="0" readonly>
+                        <input type="button" value="+" class="plus_btn">
+                    </div>
+                    <div class="final_price_txt">구매 가격 : 
+                        <div class="collection_item_final_price">0 won</div>
+                    </div>
+                </div>
+            </main>
+            <div class="footer_box">
+                <img src="../img/color_black.png" alt="로고 이미지" class="footer_logo">
+                <div class="footer_menu_box">
+                    <div class="footer_home"><a href="mainpage.html">HOME</a></div>
+                    <div class="footer_brand"><a href="brand.html">BRAND</a></div>
+                    <div class="footer_collection"><a href="collection_new.html">COLLECTION</a></div>
+                    <div class="footer_contact"><a href="contact.html">CONTACT</a></div>
+                </div>
+                <div class="footer_info_box">
+                    <div class="footer_address">123, HAPPY-RO, 456, CHEESE-SI, SMILE-DO, REPUBLIC OF KOREA<br>대한민국 스마일도 치즈시 행복로123, 456호</div>
+                    <div class="footer_email">INFO@ setino123@smile.com</div>
+                    <div class="footer_call">CALL@ 010-1234-5678</div>
+                </div>
+                <div class="left_bottom_txt">2023_SETINO®</div>
+            </div>
+        </div>
+    </div>
+    <div class="menu_box">
+        <div class="menu_logo_box">
+            <img src="../img/color_white.png" alt="로고" class="menu_logo">
+        </div>
+        <div class="menu_member_btn">
+            <div class="menu_login">LOGIN</div>
+            <div class="menu_sign_up">SIGN UP</div>
+        </div>
+        <div class="menu_in_btn">MENU
+            <div class="ham_in_btn">
+                <div class="ham_in_line ham_top_line"></div>
+                <div class="ham_in_line ham_bottom_line"></div>
+            </div>
+        </div>
+        <div class="menu_nav">
+            <div class="menu_home menu_nav_li"><a href="mainpage.html">HOME</a></div>
+            <div class="menu_brand menu_nav_li"><a href="brand.html">BRAND</a></div>
+            <div class="menu_collection menu_nav_li"><a href="collection_new.html">COLLECTION</a></div>
+            <div class="menu_contact menu_nav_li"><a href="contact.html">CONTACT</a></div>
+        </div>
+
+        <div class="menu_left_bottom_txt">2023_SETINO®</div>
+        <div class="menu_info_box">
+            <div class="menu_address">123, HAPPY-RO, 456, CHEESE-SI, SMILE-DO, REPUBLIC OF KOREA<br>대한민국 스마일도 치즈시 행복로123, 456호</div>
+            <div class="menu_email">INFO@ setino123@smile.com</div>
+            <div class="menu_call">CALL@ 010-1234-5678</div>
+        </div>
+        <div class="menu_left_bottom_txt">2023_SETINO®</div>
+        <div class="menu_right_bottom_txt">SCENT IS NOBLE</div>
+
+        <div class="login_box">
+            <div class="x_btn">X</div>
+            <div class="box_title">LOGIN</div>
+            <div class="id_box menu_member_box">
+                <div class="id_txt">ID</div>
+                <input type="text" name="id" id="login_id" value="">
+            </div>
+            <div class="pw_box menu_member_box">
+                <div class="pw_txt">Password</div>
+                <input type="password" name="pw" id="login_pw" value="">
+            </div>
+            <div class="pw_chk_box menu_member_box">
+                <div class="pw_chk_txt">Password Check</div>
+                <input type="password" name="pw_chk" id="login_pw_chk" value="">
+            </div>
+            <div class="go_signup">GO_SIGNUP</div>
+            <div class="login_finish_btn" onclick="login_pw_check()">LOGIN</div>
+        </div>
+        <div class="signup_box">
+            <div class="x_btn">X</div>
+            <div class="box_title">SIGN UP</div>
+            <div class="id_box menu_member_box">
+                <div class="id_txt">ID</div>
+                <input type="text" name="id" id="signup_id">
+            </div>
+            <div class="pw_box menu_member_box">
+                <div class="pw_txt">Password</div>
+                <input type="password" name="pw" id="signup_pw">
+            </div>
+            <div class="pw_chk_box menu_member_box">
+                <div class="pw_chk_txt">Password Check</div>
+                <input type="password" name="pw_chk" id="signup_pw_chk">
+            </div>
+            <!-- <div class="go_signup"></div> -->
+            <div class="signup_finish_btn" onclick="signup_pw_check()">FINISH</div>
+        </div>
+    </div>
+<script src="../js/item_list.js"></script>
+<script>
+    // 비번 value 일치하면 loginbox fadeout, 불일치시 error message
+    function login_pw_check() {
+        var p1 = document.getElementById('login_pw').value;
+        var p2 = document.getElementById('login_pw_chk').value;
+        if( p1 != p2 ) {
+            alert("비밀번호가 일치 하지 않습니다");
+        } else{
+            $('.login_box').fadeOut(500);
+        }
+    }
+    function signup_pw_check() {
+        var p1 = document.getElementById('signup_pw').value;
+        var p2 = document.getElementById('signup_pw_chk').value;
+        if( p1 != p2 ) {
+            alert("비밀번호가 일치 하지 않습니다");
+        } else{
+            $('.signup_box').fadeOut(500);
+        }
+    }
+    $(document).ready(function(){
+        const urlParams = new URLSearchParams(window.location.search);
+        const itemId = urlParams.get('item_id');
+
+        // item_id를 기반으로 ITEM_LIST에서 해당 아이템을 찾음
+        const selectedItem = BATH_BODY_ITEM_LIST.find(item => item.item_no === parseInt(itemId));
+
+        // 선택한 아이템 정보를 화면에 표시
+        if (selectedItem) {
+            let img_box = $('.colletion_item_img');
+            $('.collection_item_title').text(selectedItem.item_title);
+            $('.collection_item_price').text(selectedItem.item_price + ' won');
+            
+            let img_code = `<img src="../img/${selectedItem.src}" alt="상품 이미지" class = "collection_img">`;
+            $(img_code).appendTo(img_box);
+        } else {
+            alert("상품이 존재하지 않습니다.")
+        }
+
+        let ae = document.getElementById('ae');
+        let price = document.getElementsByClassName('collection_item_final_price')[0];
+
+        $('.minus_btn').click(function(){
+            if(ae.value > 0){
+                ae.value = +ae.value -1;
+                price.innerText = +ae.value * +selectedItem.item_price + ' won';
+            }
+            else{
+                alert("0 이상의 숫자만 가능");
+            }
+        });
+        $('.plus_btn').click(function(){
+            console.log(selectedItem.item_price)
+            ae.value = +ae.value +1;
+            price.innerText = +ae.value * +selectedItem.item_price + ' won';
+        });
+        $('.colletion_item_img').fadeIn(500);
+        $('.collection_item_info').fadeIn(500);
+
+         $('.nav_li').eq(0).on({
+            mouseenter:function(){
+                $('.li_bottom_line').eq(0).animate({
+                    width: '100%'
+                }, 10, 'linear');
+                $(this).addClass('height_45');
+            },
+            mouseleave:function(){
+                $('.li_bottom_line').eq(0).animate({
+                    width: '0%'
+                }, 10, 'linear');
+                $(this).removeClass('height_45');
+            }
+        });
+        $('.li_bottom_line').eq(1).css({
+            width: '100%'
+        });
+        $('.nav_li').eq(2).on({
+            mouseenter:function(){
+                $('.li_bottom_line').eq(2).animate({
+                    width: '100%'
+                }, 10, 'linear');
+                $(this).addClass('height_45');
+            },
+            mouseleave:function(){
+                $('.li_bottom_line').eq(2).animate({
+                    width: '0%'
+                }, 10, 'linear');
+                $(this).removeClass('height_45');
+            }
+        });
+        // small_li 호버시 색상변경
+        $('.small_li').hover(function(){
+            $(this).addClass('color_darkgray')
+        }, function(){
+            $(this).removeClass('color_darkgray')
+        });
+        $('.main_banner').animate({
+            opacity: 1
+        }, 500);
+        setTimeout(() => {
+            $('.item_list_sec').animate({
+                opacity: 1
+            }, 1000);       
+        }, 500);
+        $('.menu_collection').css({
+            color: '#fff'
+        });
+
+        // 메뉴 슬라이드
+        $('.menu_btn').click(function(){
+            $('.menu_box').stop().slideToggle(500);
+            setTimeout(() => {
+                $('.menu_left_bottom_txt').css({
+                    opacity: 1
+                }); 
+                $('.menu_right_bottom_txt').css({
+                    opacity: 1
+                });
+                $('.menu_info_box').css({
+                    opacity: 1
+                });
+                $('.menu_member_btn').css({
+                    opacity: 1
+                });
+                $('.menu_nav').css({
+                    opacity: 1,
+                    transform: 'translateY(0px)'
+                });
+                $('#wrap').css({
+                    display: 'none'
+                });
+            }, 500);
+            
+        })
+        $('.menu_in_btn').click(function(){
+            setTimeout(() => {
+                $('.menu_box').stop().slideToggle(500);   
+                $('#wrap').css({
+                    display: 'block'
+                }); 
+            }, 500);
+            $('.menu_left_bottom_txt').css({
+                opacity: 0
+            });
+            $('.menu_right_bottom_txt').css({
+                opacity: 0
+            });
+            $('.menu_info_box').css({
+                opacity: 0
+            });
+            $('.menu_member_btn').css({
+                opacity: 0
+            });
+            $('.menu_nav').css({
+                opacity: 0,
+                transform: 'translateY(20px)'
+            });
+            $('.login_box').fadeOut(500);
+            $('.signup_box').fadeOut(500);
+        });
+
+        //메뉴화면 로그인 fade
+        $('.menu_login').click(function(){
+            $('.login_box').stop().fadeToggle(500);
+            $('.signup_box').fadeOut(500);
+        });
+        $('.menu_sign_up').click(function(){
+            $('.signup_box').stop().fadeToggle(500);
+            $('.login_box').fadeOut(500);
+        });
+        $('.x_btn').click(function(){
+            $('.login_box').fadeOut(500);
+            $('.signup_box').fadeOut(500);
+        });
+        $('.go_signup').click(function(){
+            $('.signup_box').stop().fadeToggle(500);
+            $('.login_box').fadeOut(500);
+        });
+    })
+</script>
+</body>
+</html>

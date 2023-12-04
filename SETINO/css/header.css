@@ -1,0 +1,134 @@
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+}
+.logo_box{
+    width: 165px;
+    height: 60px;
+    cursor: pointer;    
+    z-index: 9999;
+}
+.logo{
+    width: 165px;
+    height: 60px;
+}
+.nav{
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    left: calc((100% - 500px) / 2);
+    top: 0; 
+}
+.big_ul{
+    width: 500px;
+    height: 60px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    left: calc((100% - 500px) / 2);
+    top: 0; 
+}
+.nav_li{
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 8px;
+    cursor: pointer;
+    z-index: 999999999999;
+}
+.height_45{
+    height: 45px;
+}
+.li_bottom_line{
+    width: 0%; 
+    height: 1px; 
+    background-color: black; 
+    float: left;
+    transition: width 0.5s;
+}
+/* collection에서는 계속 나타난 상태*/
+/* .nav_menu{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    font-size: 15px;
+    display: none;
+} */
+.small_ul{
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: absolute;
+    left: calc((100% - 400px) / 2);
+    top: 0px; 
+}
+.nav_menu li{
+    font-family: 'monoflex_semibold';
+}
+.menu_btn{
+    height: 25px;
+    margin-top: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ham_btn{
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.ham_line{
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    border-radius: 1px;
+    margin-top: 5px;
+}
+.back_beige{
+    background-color: #e9e6da;
+    transition: background-color 1s;
+}
+.back_gray{
+    background-color: rgb(143, 143, 143);
+    transition: background-color 1s;
+}
+.back_black{
+    background-color: #000;
+    transition: background-color 1s;
+}
+.back_white{
+    background-color: #fff;
+    transition: background-color 1s;
+}
+
+.back_black_notrans{
+    background-color: #000;
+}
+.back_white_notrans{
+    background-color: #fff;
+}
+
+.color_darkgray{
+    color: rgb(107, 107, 107);
+}

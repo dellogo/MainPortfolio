@@ -1,0 +1,34 @@
+/* 부크크명조 */
+@font-face {
+    font-family: 'Bookk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+/* 코딩체_500 */
+@font-face {
+    font-family: 'Intelmono_5';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+/* 코딩체_700 */
+@font-face {
+    font-family: 'Intelmono_7';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+/* 코딩체 파일 */
+@font-face {
+    font-family: 'monoflex_bold';
+    src: url(../fonts/MonoplexKR/MonoplexKR-Bold.ttf);
+}
+@font-face {
+    font-family: 'monoflex_semibold';
+    src: url(../fonts/MonoplexKR/MonoplexKR-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'monoflex_medium';
+    src: url(../fonts/MonoplexKR/MonoplexKR-Medium.ttf);
+}

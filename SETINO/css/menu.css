@@ -1,0 +1,231 @@
+.menu_box{
+    width: calc(100vw - 70px) ;
+    height: calc(100vh - 70px) ;
+    background-color: black;
+    z-index: 99999999   ;
+    position: relative; 
+    top: 0;
+    right: 0;
+    padding: 35px;
+    display: none;
+    overflow: hidden;
+    user-select: none;
+    opacity: 1;
+    transition: opacity 1s;
+}
+.menu_logo_box{
+    width: 165px;
+    height: 60px;
+    cursor: pointer;    
+}
+.menu_logo{
+    width: 165px;
+    height: 60px;
+}
+.menu_left_bottom_txt{
+    font-family: 'Intelmono_7';
+    position: absolute;
+    bottom: 35px; left: 35px;
+    color: white;
+    opacity: 0;
+    transition: all 1.5s;
+}
+.menu_right_bottom_txt{
+    position: absolute;
+    right: 35px; bottom: 35px;
+    color: white;
+    opacity: 0;
+    transition: all 1.5s;
+}
+.menu_nav{
+    width: 400px;
+    height: 60vh;
+    font-size: 60px;
+    color: #848484;
+    font-family: 'Intelmono_7';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 180px;
+    top: 20vh;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s;
+}
+.menu_home:hover{color: #fff;}
+.menu_brand:hover{color: #fff;}
+.menu_collection:hover{color: #fff;}
+.menu_contact:hover{color: #fff;}
+
+.menu_member_btn{
+    width: 140px;
+    height: 25px;
+    position: absolute;
+    top: 44px;
+    right: 180px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 1s;
+}
+.menu_login{
+    margin-top: 2px;
+    cursor: pointer;
+}
+.menu_sign_up{
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.login_box{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: calc((100% - 500px) / 2);
+    left: calc((100% - 700px) / 2);
+    background-color: white;
+    border-radius: 15px;
+    display: none;
+}
+.x_btn{
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.login_wrap{
+    width: 100%;
+    height: 100%;
+}
+.box_title{
+    width: 100px;
+    position: absolute;
+    top: 70px;
+    left: calc((100% - 100px) / 2);
+    text-align: center;
+    font-size: 25px;
+}
+.menu_member_box{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.id_box{
+    position: absolute;
+    left: 10%;
+    top: 150px;
+}
+.pw_box{
+    position: absolute;
+    left: 10%;
+    top: 230px;
+}
+.pw_chk_box{
+    position: absolute;
+    left: 10%;
+    top: 310px;
+}
+.login_box input, .signup_box input{
+    width: 40%;
+    text-align: center;
+}
+.go_signup{
+    width: 100px;
+    position: absolute;
+    bottom: 70px;
+    left: calc(40% - 50px);
+    text-align: left;
+    cursor: pointer;
+}
+.login_finish_btn{
+    width: 50px;
+    position: absolute;
+    bottom: 70px;
+    right: calc(40% - 50px);
+    text-align: right;
+    cursor: pointer;
+}
+.signup_finish_btn{
+    width: 100px;
+    position: absolute;
+    bottom: 70px;
+    right: calc(50% - 50px);
+    text-align: center;
+    cursor: pointer;
+}
+
+.signup_box{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: calc((100% - 500px) / 2);
+    left: calc((100% - 700px) / 2);
+    background-color: white;
+    border-radius: 15px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu_in_btn{
+    width: 70px;
+    height: 25px;
+    margin-top: 8px;
+    position: absolute;
+    top: 35px; right: 35px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+.ham_in_btn{
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.ham_in_line{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    border-radius: 1px;
+    margin-top: 5px;
+}
+.menu_info_box{
+    text-align: right;
+    width: 30vw;
+    height: 130px;
+    position: absolute;
+    right: 180px;
+    top: calc((100% - 130px) / 2);
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    opacity: 0;
+    transition: opacity 1.5s;
+}

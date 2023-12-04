@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/mainpage.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+<body>
+    <div id="start_page">
+        <div class="start_line1"></div>
+        <div class="start_line2"></div>
+        <img src="../img/color_white.png" class="start_logo"></img>
+        <div class="start_line3"></div>
+        <div class="start_line4"></div>
+    </div>
+    <div id="wrap" class="back_beige">
+        <div class="big_box">
+            <header>
+                <div class="logo_box">
+                    <a href="mainpage.html"><img src="../img/color_black.png" alt="로고" class="logo"></a>
+                </div>
+                <div class="nav">
+                    <ul class="big_ul">
+                        <li class="nav_li">
+                            <a href="brand.html">BRAND</a>
+                            <div class="li_bottom_line back_black_notrans"></div>
+                        </li>
+                        <li class="nav_li">COLLECTION
+                            <div class="li_bottom_line back_black_notrans"></div>
+                            <div class="nav_menu">
+                                <ul class="small_ul">
+                                    <li class="small_li"><a href="collection_new.html">NEW</a></li>
+                                    <li class="small_li"><a href="collection_best.html">BEST</a></li>
+                                    <li class="small_li"><a href="collection_scent.html">SCENT</a></li>
+                                    <li class="small_li"><a href="collection_bath&body.html">BATH&BODY</a></li>
+                                    <li class="small_li"><a href="collection_home_fragrance.html">HOME_FRAGRANCE</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav_li">
+                            <a href="contact.html">CONTACT</a>
+                            <div class="li_bottom_line back_black_notrans"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu_btn">MENU
+                    <div class="ham_btn">
+                        <div class="ham_line ham_top_line"></div>
+                        <div class="ham_line ham_bottom_line"></div>
+                    </div>
+                </div>                
+            </header>
+            <main>
+                <div class="container">
+                    <div class="left_num_box">
+                        <div class="left_curr_num">01</div>
+                        <div class="left_line"></div>
+                        <div class="left_final_num">06</div>
+                    </div>
+                    <div class="left_bottom_txt">2023_SETINO®</div>
+                    <div class="mid_txt_box">
+                        <div class="scent">SCENT</div>
+                        <div class="is">IS</div>
+                        <div class="noble">NOBLE</div>
+                    </div>
+                    <!-- 시간되면 value바꿔주기 -->
+                    <div class="mid_bottom_txt">MUSC SCENT</div>
+                    <div class="right_line_box">
+                        <!-- 시간되면 클래스 추가, 삭제로 길이 변경 -->
+                        <div id="r_line1" class="curr_r_line_black"></div>
+                        <div id="r_line2"></div>
+                        <div id="r_line3"></div>
+                        <div id="r_line4"></div>
+                        <div id="r_line5"></div>
+                        <div id="r_line6"></div>
+                    </div>
+                    <div class="right_bottom_txt">SCROLL</div>
+                </div>
+                <img src="../img/musc_scent.jpg" alt="" class="back_img">
+            </main>
+        </div>
+    </div>
+    <div class="menu_box">
+        <div class="menu_logo_box">
+            <img src="../img/color_white.png" alt="로고" class="menu_logo">
+        </div>
+        <div class="menu_member_btn">
+            <div class="menu_login">LOGIN</div>
+            <div class="menu_sign_up">SIGN UP</div>
+        </div>
+        <div class="menu_in_btn">MENU
+            <div class="ham_in_btn">
+                <div class="ham_in_line ham_top_line"></div>
+                <div class="ham_in_line ham_bottom_line"></div>
+            </div>
+        </div>
+        <div class="menu_nav">
+            <div class="menu_home menu_nav_li"><a href="mainpage.html">HOME</a></div>
+            <div class="menu_brand menu_nav_li"><a href="brand.html">BRAND</a></div>
+            <div class="menu_collection menu_nav_li"><a href="collection_new.html">COLLECTION</a></div>
+            <div class="menu_contact menu_nav_li"><a href="contact.html">CONTACT</a></div>
+        </div>
+
+        <div class="menu_left_bottom_txt">2023_SETINO®</div>
+        <div class="menu_info_box">
+            <div class="menu_address">123, HAPPY-RO, 456, CHEESE-SI, SMILE-DO, REPUBLIC OF KOREA<br>대한민국 스마일도 치즈시 행복로123, 456호</div>
+            <div class="menu_email">INFO@ setino123@smile.com</div>
+            <div class="menu_call">CALL@ 010-1234-5678</div>
+        </div>
+        <div class="menu_left_bottom_txt">2023_SETINO®</div>
+        <div class="menu_right_bottom_txt">SCENT IS NOBLE</div>
+
+        <div class="login_box">
+            <div class="x_btn">X</div>
+            <div class="box_title">LOGIN</div>
+            <div class="id_box menu_member_box">
+                <div class="id_txt">ID</div>
+                <input type="text" name="id" id="login_id" value="">
+            </div>
+            <div class="pw_box menu_member_box">
+                <div class="pw_txt">Password</div>
+                <input type="password" name="pw" id="login_pw" value="">
+            </div>
+            <div class="pw_chk_box menu_member_box">
+                <div class="pw_chk_txt">Password Check</div>
+                <input type="password" name="pw_chk" id="login_pw_chk" value="">
+            </div>
+            <div class="go_signup">GO_SIGNUP</div>
+            <div class="login_finish_btn" onclick="login_pw_check()">LOGIN</div>
+        </div>
+        <div class="signup_box">
+            <div class="x_btn">X</div>
+            <div class="box_title">SIGN UP</div>
+            <div class="id_box menu_member_box">
+                <div class="id_txt">ID</div>
+                <input type="text" name="id" id="signup_id">
+            </div>
+            <div class="pw_box menu_member_box">
+                <div class="pw_txt">Password</div>
+                <input type="password" name="pw" id="signup_pw">
+            </div>
+            <div class="pw_chk_box menu_member_box">
+                <div class="pw_chk_txt">Password Check</div>
+                <input type="password" name="pw_chk" id="signup_pw_chk">
+            </div>
+            <!-- <div class="go_signup"></div> -->
+            <div class="signup_finish_btn" onclick="signup_pw_check()">FINISH</div>
+        </div>
+    </div>
+<script>
+/*
+    해야할 것
+     - 상품 상세 페이지 만들기
+     - 맨 처음 사이트 들어가면 효과 생기게 하기
+     - 반응형 적용하기
+*/
+// 비번 value 일치하면 loginbox fadeout, 불일치시 error message
+function login_pw_check() {
+    var p1 = document.getElementById('login_pw').value;
+    var p2 = document.getElementById('login_pw_chk').value;
+    if( p1 != p2 ) {
+        alert("비밀번호가 일치 하지 않습니다");
+    } else{
+        $('.login_box').fadeOut(500);
+    }
+}
+function signup_pw_check() {
+    var p1 = document.getElementById('signup_pw').value;
+    var p2 = document.getElementById('signup_pw_chk').value;
+    if( p1 != p2 ) {
+        alert("비밀번호가 일치 하지 않습니다");
+    } else{
+        $('.signup_box').fadeOut(500);
+    }
+}
+
+$(document).ready(function(){
+    // start_page를 보이게 하고 1초 후에 숨기기
+    $('#start_page').css('display', 'block').delay(3000).fadeOut(2500);
+    setTimeout(() => {
+        $('.start_logo').fadeIn(500);
+        $('.start_line1').animate({
+            opacity: 1,
+            left: 0
+        }, 500);
+        $('.start_line2').animate({
+            opacity: 1,
+            right: 0
+        }, 500);
+        $('.start_line3').animate({
+            opacity: 1,
+            top: 0
+        }, 500);
+        $('.start_line4').animate({
+            opacity: 1,
+            bottom: 0
+        }, 500);
+    }, 500);
+    setTimeout(() => {
+        $('.start_line1').animate({
+            opacity: 0,
+            left: '-100vw'
+        }, 500);
+        $('.start_line2').animate({
+            opacity: 0,
+            right: '-100vw'
+        }, 500);
+        $('.start_line3').animate({
+            opacity: 0,
+            top: '-100vh'
+        }, 500);
+        $('.start_line4').animate({
+            opacity: 0,
+            bottom: '-100vh'
+        }, 500);
+    }, 1500);
+    setTimeout(() => {
+        $('.start_logo').fadeOut(300);
+        $('#wrap').fadeIn(500);
+    }, 2000);
+    
+    setTimeout(() => {
+        $('#start_page').css({
+            display: 'none'
+        })
+    }, 2500);
+
+    let timer = 1000;
+    let innertxt = ["01", "02", "03", "04", "05", "06"];
+    let item_name = ["MUSC SCENT", "WOODY SCENT", "CITRUS SCENT", "BASIL SCENT", "FLORAL SCENT", "LIGHT FLORAL SCENT"];
+    let back_img = ['../img/musc_scent.jpg', '../img/scent_in_sea.jpg', '../img/jomalone_colonge.jpg', '../img/basil_scent.jpg', '../img/flower_n_scent.jpg', '../img/flower_n_perfume.jpg'];
+    let curr_num = $('.left_curr_num');
+    let curr_item = $('.mid_bottom_txt');
+    let curr_back_img = $('.back_img');
+    let currentIndex = 0; // 현재 인덱스를 0으로 초기화
+    let isScrolling = false;
+
+    let interval = setInterval(function(){
+        currentIndex = (currentIndex + 1) % (innertxt.length);
+        color_change();  
+        line_width();               
+        curr_num.text(innertxt[currentIndex]);
+        curr_item.text(item_name[currentIndex]);
+        curr_back_img.prop('src', back_img[currentIndex]);
+    }, 5000);
+    
+    function scroll_stop() {
+        if (!isScrolling) {
+            isScrolling = true;
+            setTimeout(function(){
+                isScrolling = false;
+            }, 1000);
+        }
+    }
+
+    function stopInterval() {
+        clearInterval(interval);
+    }
+    
+    $('body').on('mousewheel DOMMouseScroll', function () {
+        if(!isScrolling) {
+            // 스크롤 이벤트가 발생하면 interval을 중지
+            stopInterval(); 
+            scroll_stop();
+
+            if (event.wheelDelta < 0) {     // 아래로 스크롤
+                currentIndex = (currentIndex + 1) % (innertxt.length);
+                color_change();  
+                line_width();               
+            } else if(event.wheelDelta > 0) {     // 위로 스크롤
+                currentIndex = ((currentIndex + innertxt.length) - 1) % (innertxt.length);
+                color_change();
+                line_width();
+            }
+            // 변수에 현재 인덱스에 해당하는 값 저장
+            curr_num.text(innertxt[currentIndex]);
+            curr_item.text(item_name[currentIndex]);
+            curr_back_img.prop('src', back_img[currentIndex]);
+
+            // 스크롤 이벤트가 발생할 때마다 interval 재시작
+            interval = setInterval(function(){
+                currentIndex = (currentIndex + 1) % (innertxt.length);
+                color_change();  
+                line_width();               
+                curr_num.text(innertxt[currentIndex]);
+                curr_item.text(item_name[currentIndex]);
+                curr_back_img.prop('src', back_img[currentIndex]);
+                
+            }, 5000);
+        }
+    });
+
+    // line 길이 바꾸는 함수
+    function line_width() {
+        for (let i = 1; i <= 6; i++) {
+            $(`#r_line${i}`).removeClass();
+        }
+        if (currentIndex === 0) {
+            $('#r_line1').addClass('curr_r_line_black');
+        } else if (currentIndex === 1) {
+            $('#r_line2').addClass('curr_r_line_white');
+        } else if (currentIndex === 2) {
+            $('#r_line3').addClass('curr_r_line_white');
+        } else if (currentIndex === 3) {
+            $('#r_line4').addClass('curr_r_line_black');
+        } else if (currentIndex === 4) {
+            $('#r_line5').addClass('curr_r_line_white');
+        } else if (currentIndex === 5) {
+            $('#r_line6').addClass('curr_r_line_white');
+        }
+    }
+
+    // 배경색 바꾸는 함수
+    function color_change(){
+        // currentIndex => 0~5
+        if((currentIndex % 3) == 0){
+            $('.container').removeClass('back_gray back_black').addClass('back_beige');
+            $('#wrap').removeClass('back_gray back_black').addClass('back_beige');
+            $('.li_bottom_line').removeClass('back_white_notrans').addClass('back_black_notrans');
+            $('.ham_line').removeClass('back_white_notrans').addClass('back_black_notrans');
+            
+            $('.container').css({color: 'black'}, timer);
+            $('header').css({color: 'black'});
+            
+            $('.logo').prop('src', '../img/color_black.png');
+        }
+        else if((currentIndex % 3) == 1){
+            $('.container').removeClass('back_beige back_black').addClass('back_gray');
+            $('#wrap').removeClass('back_beige back_black').addClass('back_gray');
+            $('.li_bottom_line').removeClass('back_black_notrans').addClass('back_white_notrans');
+            $('.ham_line').removeClass('back_black_notrans').addClass('back_white_notrans');
+
+            $('.container').css({color: 'white'}, timer);
+            $('header').css({color: 'white'});
+
+            $('.logo').prop('src', '../img/color_white.png');
+        }
+        else if((currentIndex % 3) == 2){
+            $('.container').removeClass('back_beige back_gray').addClass('back_black');
+            $('#wrap').removeClass('back_beige back_gray').addClass('back_black');
+            $('.li_bottom_line').removeClass('back_black_notrans').addClass('back_white_notrans');
+            $('.ham_line').removeClass('back_black_notrans').addClass('back_white_notrans');
+
+            $('.container').css({color: 'white'}, timer);
+            $('header').css({color: 'white'});
+
+            $('.logo').prop('src', '../img/color_white.png');
+        }
+    }
+
+    // nav 밑줄 mouse enter 사용
+    $('.nav_li').on({
+        mouseenter:function(){
+            $(this).children('.li_bottom_line').animate({
+                width: '100%'
+            }, 10, 'linear');
+            $(this).addClass('height_45');
+        },
+        mouseleave:function(){
+            $(this).children('.li_bottom_line').animate({
+                width: '0%'
+            }, 10, 'linear');
+            $(this).removeClass('height_45');
+        }
+    });
+    // 배경 이미지 호버시 scale변경
+    $('.back_img').hover(function(){
+        $(this).css({
+            transform: 'scale(1.01)'
+        });
+    }, function(){
+        $(this).css({
+            transform: 'scale(1)'
+        });
+    });
+
+    // collection 호버시 하단메뉴 슬라이드
+    $('.nav_li').eq(1).mouseenter(function(){
+        $('.nav_menu').stop().slideDown(300);
+    });
+    $('.nav_li').eq(1).mouseleave(function(){
+        $('.nav_menu').stop().slideUp(300);
+    });
+    // small_li 호버시 색상변경
+    $('.small_li').hover(function(){
+        $(this).addClass('color_darkgray')
+    }, function(){
+        $(this).removeClass('color_darkgray')
+    });
+
+    $('.menu_home').css({
+        color: '#fff'
+    });
+
+    // 메뉴 슬라이드
+    $('.menu_btn').click(function(){
+        $('.menu_box').stop().slideToggle(500);
+        setTimeout(() => {
+            $('.menu_left_bottom_txt').css({
+                opacity: 1
+            }); 
+            $('.menu_right_bottom_txt').css({
+                opacity: 1
+            });
+            $('.menu_info_box').css({
+                opacity: 1
+            });
+            $('.menu_member_btn').css({
+                opacity: 1
+            });
+            $('.menu_nav').css({
+                opacity: 1,
+                transform: 'translateY(0px)'
+            });
+            $('#wrap').css({
+                display: 'none'
+            });
+            $('#start_page').css({
+                display: 'none'
+            });
+        }, 500);
+        
+    })
+    $('.menu_in_btn').click(function(){
+        setTimeout(() => {
+            $('.menu_box').stop().slideToggle(500);   
+            $('#wrap').css({
+                display: 'block'
+            }); 
+        }, 500);
+        $('.menu_left_bottom_txt').css({
+            opacity: 0
+        });
+        $('.menu_right_bottom_txt').css({
+            opacity: 0
+        });
+        $('.menu_info_box').css({
+            opacity: 0
+        });
+        $('.menu_member_btn').css({
+            opacity: 0
+        });
+        $('.menu_nav').css({
+            opacity: 0,
+            transform: 'translateY(20px)'
+        });
+        $('#start_page').css({
+            display: 'none'
+        });
+        $('.login_box').fadeOut(500);
+        $('.signup_box').fadeOut(500);
+    });
+
+    //메뉴화면 로그인 fade
+    $('.menu_login').click(function(){
+        $('.login_box').stop().fadeToggle(500);
+        $('.signup_box').fadeOut(500);
+    });
+    $('.menu_sign_up').click(function(){
+        $('.signup_box').stop().fadeToggle(500);
+        $('.login_box').fadeOut(500);
+    });
+    $('.x_btn').click(function(){
+        $('.login_box').fadeOut(500);
+        $('.signup_box').fadeOut(500);
+    });
+    $('.go_signup').click(function(){
+        $('.signup_box').stop().fadeToggle(500);
+        $('.login_box').fadeOut(500);
+    });
+});
+
+</script>    
+</body>
+</html>
