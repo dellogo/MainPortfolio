@@ -129,6 +129,7 @@ ul{
     height: 10vh;
     background-color: black;
     position: inherit;
+    z-index: 99;
 }
 .fix{
     position: fixed;
@@ -145,6 +146,12 @@ ul{
     font-size: 30px;
     margin-bottom: 15px;
 }
+/* .go_html_btn{
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 16px 3px rgba(255, 255, 255, 0.459);
+    padding: 5px;
+} */
 .scene1{
     padding: 0 250px;
     box-sizing: border-box;
@@ -191,7 +198,7 @@ ul{
 }
 .skill_content{
     /* width: 70%; */
-    font-size: 18px;
+    font-size: 16px;
     background-color: #ffffffdf;
     padding: 7px 10px 5px;
     color: #000;
@@ -229,7 +236,7 @@ ul{
 }
 .img_sub_title{
     text-align: center;
-    margin: 50px 0 30px;
+    margin: 40px 0 20px;
     font-size: 23px;
     font-weight: bold;
 }
@@ -242,7 +249,13 @@ ul{
     justify-content: center;
     transition: all 0.5s;
 }
-.img_box:hover{
+.img_box img{
+    transition: all 0.5s;
+}
+/* .img_box:hover{
+    transform: scale(1.05);
+} */
+.img_box:hover img{
     transform: scale(1.05);
 }
 .img_content{

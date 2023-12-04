@@ -39,6 +39,7 @@
         <div class="box_title">🔎ABOUT ME</div>
         <div class="profile_wrap">
             <div class="about_me_content">
+                백엔드 개발자를 꿈꾸는 "홍서영"입니다.<br>
                 한 번의 개발로 끝이 아닌 리팩토링을 통한 개선과 성과에 성취감을 느낍니다.<br>
                 사용자들의 요구사항을 파악하고 반영시켜 더욱 편리하고 유용한 서비스를 제공할 수 있는 개발자가 목표입니다.
             </div>
@@ -92,33 +93,60 @@
         <div class="portfolio_wrap">
             <span class="img_num">01</span>
             <span class="img_title">SETINO🌿</span>
-            <a href="SETINO/html/mainpage.html">
-                <div class="img_box">
-                    <img src="img/SETINO_pc.png" class="setino_pc" alt="SETINO(PC)">
-                    <img src="img/SETINO_tablet.png" class="setino_tablet" alt="SETINO(Tablet)">
-                </div>
+            <a href="../SETINO_portfolio/html/mainpage.html">
+                <span class="go_btn">[홈페이지 이동]</span>
             </a>
-            <div class="img_content"></div>
+            &emsp;
+            <a href="https://github.com/dellogo/DOGOMI">
+                <span class="go_btn">[깃허브 이동]</span>
+            </a>
+            <div class="img_box">
+                <img src="img/SETINO_pc.png" class="setino_pc" alt="SETINO(PC)">
+                <img src="img/SETINO_tablet.png" class="setino_tablet" alt="SETINO(Tablet)">
+            </div>
+            <div class="img_sub_title">
+                향수 브랜드 홈페이지
+            </div>
+            <div class="img_content">
+                욕실 가구 브랜드인 BATINO의 홈페이지를 벤치마킹해 제작하였습니다.<br>
+                백엔드 작업 없이 HTML과 CSS, JavaScript를 사용해 제작한 프론트엔드 홈페이지입니다.<br>
+                크게 메인페이지, 브랜드 소개 페이지, 상품 컬렉션 페이지, 컨택 페이지, 메뉴 페이지로 나뉘어져 있습니다.
+            </div>
         </div>
         <div class="portfolio_wrap">
             <span class="img_num">02</span>
             <span class="img_title">DOGOMI🐶</span>
             <a href="https://github.com/dellogo/DOGOMI">
-                <div class="img_box">
-                    <img src="img/DOGOMI_pc.png" class="dogomi_pc" alt="DOGOMI(PC)">
-                    <img src="img/YouthNeverDie.png" class="dogomi_mobile" alt="SETINO(Tablet)">
-                </div>
+                <span class="go_btn">[깃허브 이동]</span>
             </a>
-            <div class="img_sub_title">애견훈련소 정보 조회 및 훈련 예약 홈페이지</div>
-            <div class="img_content">애견훈련소 리스트 정보 조회 및 검색, 훈련소별 훈련 예약 및 리뷰 작성,<br>견주들이 소통할 수 있는 커뮤니티, 회원가입 및 로그인, 견주와 훈련소 각각의 마이페이지 등의 기능을 구현하였습니다.</div>
+            <div class="img_box">
+                <img src="img/DOGOMI_pc.png" class="dogomi_pc" alt="DOGOMI(PC)">
+                <img src="img/YouthNeverDie.png" class="dogomi_mobile" alt="SETINO(Tablet)">
+            </div>
+            <div class="img_sub_title">
+                애견훈련소 정보 조회 및 훈련 예약 홈페이지
+            </div>
+            <div class="img_content">
+                애견훈련소 리스트 정보 조회 및 검색, 훈련소별 훈련 예약 및 리뷰 작성,<br>
+                견주들이 소통할 수 있는 커뮤니티, 회원가입 및 로그인, 견주와 훈련소 각각의 마이페이지 등의 기능을 구현하였습니다.
+            </div>
         </div>
         <div class="portfolio_wrap">
             <span class="img_num">03</span>
             <span class="img_title">YouthNeverDie🪽</span>
+            <a href="https://github.com/dellogo/DOGOMI">
+                <span class="go_btn">[깃허브 이동]</span>
+            </a>
             <div class="img_box">
                 <img src="img/YouthNeverDie.png" class="youth_mobile" alt="YouthNeverDie(Mobile)">
             </div>
-            <div class="img_content"></div>
+            <div class="img_sub_title">
+                취업준비생을 위한 TODO LIST 다이어리 및 커뮤니티 어플리케이션
+            </div>
+            <div class="img_content">
+                Q-NET 자격증 API를 이용한 취업 준비생에게 도움이 되는 정보 제공, <br>
+                취업 준비 기간 동안의 목표와 과정 기록, 취업 준비생들 간의 취업 관련 정보 공유 목적의 커뮤니티 기능을 구현하였습니다.
+            </div>
         </div>
     </div>
     <div class="scene4 box">
@@ -126,7 +154,7 @@
         <div class="contact_wrap">
             <div class="email_box">
                 <div class="icon_box">
-                    <a href="mailto:hongsy7179@naver.com">
+                    <a href="mailto:young_laon@naver.com">
                         <img src="img/email2.png" alt="이메일 아이콘">
                     </a>
                 </div>
@@ -188,6 +216,14 @@
                         backgroundColor: '#ffffffdf'
                     });
                 });
+                $('.go_btn').css({
+                    color: '#000'
+                });
+                if(window.scrollY >= $('.home').height()){
+                    $('.header').css({
+                        backgroundColor: '#fff'
+                    });
+                }
             }else{
                 document.body.classList.add("dark-mode");
                 $('.home').css({
@@ -220,6 +256,9 @@
                     $(this).css({
                         backgroundColor: '#ffffffbb'
                     });
+                });
+                $('.go_btn').css({
+                    color: '#fff'
                 });
             }
         },false);
