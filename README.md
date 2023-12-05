@@ -15,15 +15,24 @@
 
   ![image](https://github.com/dellogo/MainPortfolio/assets/93125060/f0da57bc-3d3c-4b13-b3fe-73389968e05f)
   > 프로젝트: 개인 종합 포트폴리오
-  > 기획 및 제작: 홍서영
-  > 분류: 개인 프로젝트
-  > 주요 기능: Dark/Light Mode, Email 전송, 외부 링크 이동
-  > 사용 기술: HTML5, CSS3, JavaScript
-  > 문의: young_laon@naver.com
+  >
+  > 기획 및 제작: 홍서영 
+  >
+  > 분류: 개인 프로젝트 
+  >
+  > 주요 기능: Dark/Light Mode
+  >
+  > 사용 기술: HTML5, CSS3, JavaScript 
+  >
+  > 문의: young_laon@naver.com 
 
 ## **⚒️ 기술 및 도구**
 
   ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white) ![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
 ## **🔎 기능 구현**
+### **1. Dark/Light Mode**
 
+![홍서영-포트폴리오 (1)](https://github.com/dellogo/MainPortfolio/assets/93125060/c8f115b7-d4c7-4baa-82bf-d559702100f9)
+
+- 라이트 및 다크모드 기능 구현
