@@ -1,9 +1,9 @@
 ![header](https://capsule-render.vercel.app/api?type=venom&color=auto&height=150&section=header&text=HONG's%20portfolio&fontSize=70)
 
 ## 📖목차
-### ❤️ [개요](#👻-개요)
-### 🩷 [기술 및 도구](#⚒️-기술-및-도구)
-### 💛 [기능 구현](#🔎-기능-구현)
+### ❤️ [개요](#-개요)
+### 🩷 [기술 및 도구](#-기술-및-도구)
+### 💛 [기능 구현](#-기능-구현)
 ---
 ## 👻 개요
 ![image](https://github.com/dellogo/MainPortfolio/assets/93125060/f0da57bc-3d3c-4b13-b3fe-73389968e05f)
