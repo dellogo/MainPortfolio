@@ -7,6 +7,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="./img/82NeYvkb.ico">
+    <meta property="og:image" content="./img/main1.jpg">
 </head>
 <body class="dark-mode">
 <div id="wrap">
@@ -15,6 +16,9 @@
             <label for="toggle" class="toggleSwitch" id="toggle">
                 <span class="toggleButton"></span>
             </label>
+            <!-- <div class="banner_txt_box"> -->
+            <div class="banner_txt">I'm<br>Seoyoung Hong.<br>Backend Developer.</div>
+            <!-- </div> -->
         </div>
         <div class="header">
             <ul class="header_nav">
@@ -46,11 +50,19 @@
             </div>
             <div class="profile_box">
                 <div class="profile_title">🔎Profile</div>
-                <div class="profile_content">👧 홍서영 (HONG SEO YOUNG)</div>
-                <div class="profile_content">🎂 2000년 11월 24일 출생</div>
-                <div class="profile_content">🏠 경기도 하남시 거주</div>
-                <div class="profile_content">🏫 경동대학교 컴퓨터공학과 재학<br>&emsp;&emsp;(2019.02 ~ 2024.02)</div>
-                <div class="profile_content">🏫 자바 기반 공공데이터 융합 개발자 양성과정 수료<br>&emsp;&emsp;(2023.07.14 ~ 2023.12.27)</div>
+                <div class="profile_flex_box">
+                    
+                    <div class="profile_txt_box">
+                        <div class="profile_content">👧 홍서영 (HONG SEO YOUNG)</div>
+                        <div class="profile_content">🎂 2000년 11월 24일 출생</div>
+                        <div class="profile_content">🏠 경기도 하남시 거주</div>
+                        <div class="profile_content">🏫 경동대학교 컴퓨터공학과 재학<br>&emsp;&emsp;(2019.02 ~ 2024.02)</div>
+                        <div class="profile_content">🏫 자바 기반 공공데이터 융합 개발자 양성과정 수료<br>&emsp;&emsp;(2023.07.14 ~ 2023.12.27)</div>
+                    </div>
+                    <div class="profile_img_box">
+                        <img src="./img/profile_draw.jpg" alt="프로필 이미지">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -189,7 +201,6 @@
                 document.body.classList.remove("dark-mode");
                 $('.home').css({
                     backgroundImage: 'url(./img/skydiving.jpg)',
-                    // backgroundSize: 'contain',
                     backgroundColor: '#fff'
                 });
                 $('.box').css({
@@ -220,7 +231,6 @@
                 document.body.classList.add("dark-mode");
                 $('.home').css({
                     backgroundImage: 'url(./img/space.jpg)',
-                    // backgroundSize: 'cover',
                     backgroundColor: '#000'
                 });
                 $('.box').css({
@@ -228,7 +238,7 @@
                     color: '#fff'
                 });
                 $('.header').css({
-                    backgroundColor: '#000'
+                    backgroundColor: 'transparent'
                 });
                 $('.header_nav').css({
                     color: '#fff'
@@ -242,6 +252,11 @@
                 $('.go_btn').css({
                     color: '#fff'
                 });
+                if(window.scrollY >= $('.home').height()){
+                    $('.header').css({
+                        backgroundColor: '#000'
+                    });
+                }
             }
         },false);
 
@@ -265,13 +280,15 @@
                     $('.header').css({
                         backgroundColor: '#fff'
                     });
-                }
-            }else{
-                if(!document.querySelector('body').classList.contains('dark-mode')){
+                }else{
                     $('.header').css({
-                        backgroundColor: 'transparent'
+                        backgroundColor: '#000'
                     });
                 }
+            }else{
+                $('.header').css({
+                    backgroundColor: 'transparent'
+                });
             }
         });
 
