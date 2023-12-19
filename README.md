@@ -19,6 +19,8 @@
   >
   > 기획 및 제작: 홍서영 
   >
+  > 링크: https://dellogo.github.io/MainPortfolio/ 
+  >
   > 분류: 개인 프로젝트 
   >
   > 주요 기능: Dark/Light Mode
