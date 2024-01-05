@@ -41,9 +41,10 @@
         </div>
     </div>
     <div class="scene1 box">
-        <div class="box_title">🔎ABOUT ME</div>
+        <div class="box_title">🔎ABOUT ME <a href="./file/홍서영_포트폴리오.pptx" download><b><span class="file_txt">[📂포트폴리오 다운받기]</span></b></a></div>
         <div class="profile_wrap">
             <div class="about_me_content">
+                <!-- <a href="/file/홍서영_포트폴리오.pptx" download><b>[📂포트폴리오 다운받기]</b></a><br><br> -->
                 백엔드 개발자를 꿈꾸는 "홍서영"입니다.<br>
                 한 번의 개발로 끝이 아닌 리팩토링을 통한 개선과 성과에 성취감을 느낍니다.<br>
                 사용자들의 요구사항을 파악하고 반영시켜 더욱 편리하고 유용한 서비스를 제공할 수 있는 개발자가 목표입니다.
@@ -135,7 +136,6 @@
             </a>
             <div class="img_box">
                 <img src="./img/DOGOMI_pc.png" class="dogomi_pc" alt="DOGOMI(PC)">
-                <!-- <img src="img/YouthNeverDie.png" class="dogomi_mobile" alt="SETINO(Tablet)"> -->
             </div>
             <div class="img_sub_title">
                 애견훈련소 정보 조회 및 훈련 예약 홈페이지(팀프로젝트)
@@ -147,6 +147,26 @@
         </div>
         <div class="portfolio_wrap">
             <span class="img_num">03</span>
+            <span class="img_title">ForYourDay</span>
+            <a href="https://github.com/dellogo/ForYourDay">
+                <span class="go_btn">[깃허브 이동]</span>
+            </a>
+            <div class="img_box">
+                <img src="./img/ForYourDay_pc.png" class="foryourday_pc" alt="ForYourDay(PC)">
+            </div>
+            <div class="img_sub_title">
+                버킷리스트, 위시리스트, 투두리스트, 일기를 작성할 수 있는 웹 페이지
+            </div>
+            <div class="img_content">
+                1. 인생에 한번은 해보고 싶은 것을 적는 버킷 리스트<br>
+                2. 갖고 싶거나 희망 하는 것을 적는 위시 리스트<br>
+                3. 특정 날짜 또는 일정 기간 내에 해야 하는 목록을 적어둔 투두 리스트<br>
+                4. 오늘 하루에 대한 것을 적는 다이어리<br>
+                위와 같은 버킷 리스트, 위시 리스트, 투두 리스트, 다이어리를 적어둠으로써 자신의 목표를 세우고 실천해 나갈 수 있는 웹 페이지
+            </div>
+        </div>
+        <div class="portfolio_wrap">
+            <span class="img_num">04</span>
             <span class="img_title">YouthNeverDie🪽</span>
             <a href="https://github.com/dellogo/YouthNeverDie">
                 <span class="go_btn">[깃허브 이동]</span>
@@ -207,6 +227,10 @@
                     backgroundColor: '#fff',
                     color: '#000'
                 });
+                $('.file_txt').css({
+                    backgroundColor: '#fff',
+                    color: '#000'
+                });
                 $('.header').css({
                     backgroundColor: 'transparent'
                 });
@@ -234,6 +258,10 @@
                     backgroundColor: '#000'
                 });
                 $('.box').css({
+                    backgroundColor: '#000',
+                    color: '#fff'
+                });
+                $('.file_txt').css({
                     backgroundColor: '#000',
                     color: '#fff'
                 });
