@@ -42,7 +42,7 @@
 
 ## **📰 페이지 구성**
 ### ABOUT ME
-![image](https://github.com/dellogo/MainPortfolio/assets/93125060/9ebc3dba-88cb-43ec-882a-a2fd32e0c8ba)
+![image](https://github.com/dellogo/MainPortfolio/assets/93125060/25e6dd1e-b2c0-438e-896d-64ef40172d7b)
 
 ### SKILLS
 ![image](https://github.com/dellogo/MainPortfolio/assets/93125060/3f38378e-7870-4249-a6c9-cca2a9f911ab)
